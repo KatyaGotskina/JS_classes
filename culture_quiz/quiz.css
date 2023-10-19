@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    color: #333;
+    margin: 20px;
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.choice {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #5a8cc5;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    width: 160px;
+    height: 60px;
+}
+
+#reload {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #b6a0d3;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    width: 100px;
+    height: 40px;
+}
+
+.choice:hover {
+    background-color: #0056b3;
+}
