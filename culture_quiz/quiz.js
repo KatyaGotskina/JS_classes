@@ -31,7 +31,10 @@ class Quiz {
     async make_test() {
         let buttons = document.querySelectorAll(".choice");
         console.log(buttons)
-        for (let button of buttons) { button.style.backgroundColor = '#5a8cc5'; button.textContent = '' }
+        for (let button of buttons) { 
+            button.style.backgroundColor = '#5a8cc5';
+            button.innerHTML = '<i class="fa-solid fa-spinner fa-spin-pulse"></i>';
+        }
         this.IsFirstCorrect = true
         try {
             let num = Math.floor(Math.random() * (2030 - 1) + 1);
